@@ -1,0 +1,65 @@
+.entreprise-show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px lightgrey;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.entreprise-show table {
+    font-size: 16px;
+    text-align: center;
+    background-color: lightgrey;
+    border: double white;
+    padding: 50px;
+}
+
+.entreprise-show table thead {
+    background-color: black;
+    color: white;
+}
+
+.entreprise-show table tbody tr {
+    border: solid 3px white;
+}
+
+.entreprise-show table tbody td {
+    border: solid 3px white;
+    padding: 5px 10px;
+}
+
+.entreprise-show .action-button {
+    display: flex;
+    margin-top: 10px;
+}
+
+.entreprise-show .action-button .edit {
+    background-color: blue;
+}
+
+.entreprise-show .action-button .delete {
+    background-color: red;
+}
+
+.entreprise-show .action-button .home {
+    color: black;
+}
+
+.entreprise-show .action-button button {
+    color: white;
+    padding: 5px 10px;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+.entreprise-show .action-button button:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.entreprise-show .action-button form:not(:first-child) {
+    margin-left: 30px;
+}

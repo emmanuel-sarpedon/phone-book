@@ -1,0 +1,47 @@
+.collaborateurs-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collaborateurs-index table {
+    font-size: 16px;
+    text-align: center;
+    background-color: lightgrey;
+    border: double white;
+    padding: 50px;
+}
+
+.collaborateurs-index table thead {
+    background-color: black;
+    color: white;
+}
+
+.collaborateurs-index table tbody tr {
+    border: solid 3px white;
+}
+
+.collaborateurs-index table tbody tr:first-child {
+    font-weight: bold;
+    background-color: grey;
+}
+
+.collaborateurs-index table tbody td {
+    border: solid 3px white;
+    padding: 5px 20px;
+}
+
+.collaborateurs-index button {
+    color: black;
+    padding: 5px 10px;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+.collaborateurs-index button:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.collaborateurs-index .create {
+    margin: 50px;
+}

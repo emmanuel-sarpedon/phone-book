@@ -1,0 +1,69 @@
+.entreprises-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entreprises-index table {
+    font-size: 16px;
+    text-align: center;
+    background-color: lightgrey;
+    border: double white;
+    padding: 50px;
+}
+
+.entreprises-index table thead {
+    background-color: black;
+    color: white;
+}
+
+.entreprises-index table tbody tr {
+    border: solid 3px white;
+}
+
+.entreprises-index table tbody tr:first-child {
+    font-weight: bold;
+    background-color: grey;
+}
+
+.entreprises-index table tbody td {
+    border: solid 3px white;
+    padding: 5px 20px;
+}
+
+.entreprises-index button {
+    color: black;
+    padding: 5px 10px;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+.entreprises-index button:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.entreprises-index .create {
+    margin: 50px;
+}
+
+.entreprises-index .filters {
+    display: flex;
+}
+
+.entreprises-index .filters label:not(:first-child) {
+    margin-left: 30px;
+}
+
+.entreprises-index .filters input {
+    margin-left: 10px;
+}
+
+.entreprises-index .filters .filter {
+    background-color: lightblue;
+}
+
+.entreprises-index .filters .raz {
+    margin-left: 10px;
+    background-color: lightcoral;
+    color: white;
+}
